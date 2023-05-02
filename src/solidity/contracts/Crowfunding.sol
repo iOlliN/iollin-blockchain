@@ -6,7 +6,6 @@ contract Crowdfunding {
     address payable public entrepreneur;
     uint256 public goal;
     uint256 public deadline;
-    //uint256 public collectedAmount;
     bool public closed;
 
     constructor() {
